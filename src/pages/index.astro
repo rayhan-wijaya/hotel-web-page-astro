@@ -1,15 +1,112 @@
 ---
 ---
 
-<html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-		<meta name="viewport" content="width=device-width" />
-		<meta name="generator" content={Astro.generator} />
-		<title>Astro</title>
-	</head>
-	<body>
-		<h1>Astro</h1>
-	</body>
+<html lang="id">
+  <head>
+    <title>Dijual Apartment Murah</title>
+    <link href="./dist/output.css" rel="stylesheet">
+
+    <script defer src="asset/script/hotel-image-slider.js"></script>
+
+    <style>
+      body {
+        background-color: #475569; /* bg-slate-600 */
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="py-8 mx-auto max-w-2xl bg-slate-50 rounded-b-none 2xl:rounded-b-2xl shadow-lg">
+
+      <div id="hero-section">
+        <h1 class="text-2xl text-center underline">DIJUAL APARTMENT MURAH !!</h1>
+
+        <div class="p-1"></div>
+
+        <p class="text-xl text-center">Bintaro, Pondok Aren</p>
+      </div>
+
+      <div class="p-5"></div>
+
+      <div class="flex gap-3 md:w-4/5 w-full mx-auto items-center justify-center">
+        <button class="p-2 hover:bg-slate-300 hover:shadow-sm rounded-md transition-all" id="hotel-image-prev">
+          <img src="asset/svg/chevron-left-arrow.svg" width="25" height="25">
+        </button>
+
+        <div
+          class="flex items-center justify-center md:max-w-screen-sm mx-auto"
+          id="hotel-image-container"
+        >
+          <img class="h-80 object-contain rounded-xl shadow-md" src="asset/image/room-main-view.jpg">
+          <img class="h-80 object-contain rounded-xl shadow-md hidden" src="asset/image/room-second-view.jpg">
+          <img class="h-80 object-contain rounded-xl shadow-md hidden" src="asset/image/room-third-view.jpg">
+          <img class="h-80 object-contain rounded-xl shadow-md hidden" src="asset/image/room-fourth-view.jpg">
+
+          <img class="h-80 object-contain rounded-xl shadow-md hidden" src="asset/image/bathroom-main-view.jpg">
+          <img class="h-80 object-contain rounded-xl shadow-md hidden" src="asset/image/bathroom-secondary-view.jpg">
+
+          <img class="h-80 object-contain rounded-xl shadow-md hidden" src="asset/image/outside-main-view.jpg">
+          <img class="h-80 object-contain rounded-xl shadow-md hidden" src="asset/image/outside-second-view.jpg">
+        </div>
+
+        <button class="p-2 hover:bg-slate-300 hover:shadow-sm rounded-md transition-all" id="hotel-image-next">
+          <img src="asset/svg/chevron-right-arrow.svg" width="25" height="25">
+        </button>
+      </div>
+
+      <div class="p-5"></div>
+
+      <div>
+        <p class="text-center text-xl">
+          Hanya <span class="font-semibold">Rp. 365 Juta !!</span>
+        </p>
+      </div>
+
+      <div class="p-3"></div>
+
+      <div class="flex justify-center items-center">
+        <a
+          class="inline-flex items-center text-white justify-center gap-2 bg-whatsapp-500 px-6 py-3 rounded-md text-lg hover:bg-whatsapp-600 font-semibold transition-colors"
+          href="https://wa.me/+6281324862016"
+        >
+          <img src="asset/svg/whatsapp.svg"> Contact
+        </a>
+      </div>
+
+      <div class="p-3"></div>
+
+      <div>
+        <p class="text-center text-lg">Apartment Bintaro Icon</p>
+        <p class="text-center text-lg">Tipe Studio, 22m<sup>2</sup></p>
+      </div>
+
+      <div class="p-2"></div>
+
+      <div>
+        <p class="text-center text-lg">Jl. Jombang Raya no 26, Bintaro</p>
+        <p class="text-center text-lg">Pondok Aren, Tangerang Selatan 15229</p>
+      </div>
+
+      <div class="p-2"></div>
+
+      <div>
+        <p class="text-center text-lg">
+          <a href="tel:+6281324862016">+62 813 2486 2016</a>
+        </p>
+
+        <p class="text-center text-lg">
+          <a href="mailto:dwicahyanisusiwi@gmail.com">dwicahyanisusiwi@gmail.com</a>
+        </p>
+      </div>
+
+      <div class="p-5"></div>
+
+      <div class="flex items-center justify-center gap-3">
+        <a class="inline-flex justify-center items-center gap-2 text-lg" href="https://github.com/rayhan-wijaya/hotel-web-page">
+          <img src="asset/svg/github.svg"> GitHub
+        </a>
+      </div>
+
+    </div>
+  </body>
 </html>
