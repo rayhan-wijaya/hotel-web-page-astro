@@ -4,8 +4,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        "whatsapp-500": "#1f8532",
-        "whatsapp-600": "#196b28",
+        "whatsapp-500": "#1b722b",
+        "whatsapp-600": "#13521f",
       },
     },
   },
